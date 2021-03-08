@@ -2,7 +2,7 @@
 
 A PyTorch implementation of [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) on MNIST.
 
-## To run
+## To train
 
 `cd src`
 
