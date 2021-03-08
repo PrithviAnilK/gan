@@ -1,6 +1,6 @@
 # GAN
 
-A Pytorch implementation of (Generative Adversarial Networks)[https://arxiv.org/abs/1406.2661] on MNIST dataset.
+A PyTorch implementation of [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) on MNIST.
 
 ## To run
 
@@ -12,5 +12,5 @@ A Pytorch implementation of (Generative Adversarial Networks)[https://arxiv.org/
 
 ## References
 
-- (DCGAN)[https://arxiv.org/abs/1511.06434]
-- (PyTorch DCGAN Tutorial)[https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial]
+- [DCGAN Paper](https://arxiv.org/abs/1511.06434)
+- [PyTorch DCGAN Tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial)
