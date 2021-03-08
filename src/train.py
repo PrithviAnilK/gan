@@ -15,11 +15,11 @@ def train():
     discriminator = Discriminator()
     generator.to(device)
     discriminator.to(device)
-    g_optim = optim.Adam(generator.parameters(), args.lr)
-    d_optim = optim.Adam(discriminator.parameters(), args.lr)
+    g_optim = optim.Adam(generator.parameters(), args.lr, (args.beta_1, 0.999))
+    d_optim = optim.Adam(discriminator.parameters(), args.lr, (args.beta_1, 0.999))
 
     dataloader = mnist_dataloader(args)
-    bce = nn.BCELoss()
+    bce = nn.BCEWithLogitsLoss()
 
     print('Training on device :', device.type)
     for e in range(args.epochs):
